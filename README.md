@@ -127,7 +127,18 @@ By convention though, we keep our routes and our erb files named the same. This 
 
 
 
+require_relative 'config/environment'
 
+class App < Sinatra::Base
+
+	get '/' do
+		erb :index
+	end
+  
+	get "/info" do
+		erb :info
+	end
+end
 
 
 
