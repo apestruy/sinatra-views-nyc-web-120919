@@ -112,3 +112,24 @@ It's important to note that the name of the file doesn't have to match the name 
 By convention though, we keep our routes and our erb files named the same. This makes it easier to keep track of as our projects get bigger.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-views' title='Sinatra Views'>Sinatra Views</a> on Learn.co and start learning to code for free.</p>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First View!!</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <p>This HTML code is inside of a '.erb' file in the views directory, where it belongs.</p>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
